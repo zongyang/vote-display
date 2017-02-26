@@ -1,12 +1,109 @@
+/*全局*/
+
 body {
 	background: #f5f5f5;
 	font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
 }
 
+
+/*bootstrap 重载*/
+
 .panel {
 	border-radius: initial;
 }
 
+.text-primary {
+	color: #77d4f6 !important;
+}
+
+.text-warning {
+	color: #f5c014 !important;
+}
+
+.text-danger {
+	color: #ed6e5e !important;
+}
+
 .panel-default>.panel-heading {
 	background-color: initial;
+}
+
+
+/*语义样式*/
+
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position: absolute;
+}
+
+.font-size-15 {
+	font-size: 15px;
+}
+
+.font-size-16 {
+	font-size: 16px;
+}
+
+.font-size-18 {
+	font-size: 18px;
+}
+
+.size-80 {
+	width: 80px;
+	height: 80px;
+}
+
+.divider {
+	margin: 8px 0 5px 0 ;
+	border-bottom: 1px solid transparent;
+	border-color: #f5f5f5;
+}
+
+
+/*自定义*/
+
+.state-lable {
+	background: url("public/lable.png");
+	background-size: 100%;
+	top: 0;
+	right: 0;
+	width: 80px;
+	color: #fff;
+	padding-left: 15px;
+}
+
+.rank-lable {
+	background: url("public/rank.png") no-repeat;
+	font-size: 22px;
+	background-size: 100%;
+	width: 74px;
+	height: 55px;
+	color: #fff;
+	padding: 6px 0 0 28px;
+}
+
+.vote-progress {
+	height: 5px;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+.vote-progress .progress-bar {
+	width: 38%;
+}
+
+.vote-progress .progress-bar-warning {
+	background-color: #f5c014 !important;
+}
+
+.progress-text {
+	margin-top: 10px;
+	font-size: 18px;
+}
+
+.progress-text .text-muted {
+	color: #b7b3b3;
 }
